@@ -46,7 +46,7 @@ M350 X16 Y16 Z16 E16:16 I1      ; Use 1/16 microstepping with interpolation ever
 M92 X160 Y160 Z800              ; Set XYZ steps per mm (0.9deg motors)
 M92 E560:560                    ; Set Extruder steps per mm (Mobius 3)
 
-M360 Z16 I0 ; disable Z interpolation
+M350 Z16 I0 ; disable Z interpolation
 
 ; Drive currents
 M906 X1200 Y1200 Z1200 E1000    ; XYZ and E current
